@@ -6,12 +6,15 @@ import java.util.Iterator;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import com.exception.DcpException;
+
 
 
 public class MarlboroBlueConfiguration {
 	private static Properties prop = new Properties();
 	private static AtomicBoolean isLoad = new AtomicBoolean(false);
-	public static void load(boolean isDeveloperMode) throws Exception {
+	
+	public static void load(boolean isDeveloperMode) throws DcpException {
 		if (isLoad.get()) 
 			return;
 
@@ -35,7 +38,7 @@ public class MarlboroBlueConfiguration {
 		printProps();
 	}
 
-	public static String getProperty(String key) throws Exception {
+	public static String getProperty(String key) throws DcpException {
 		if (isLoad.get() == false)
 			load(false);
 		
