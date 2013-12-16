@@ -13,7 +13,6 @@ import com.MarlboroBlueConfiguration;
 
 public enum Schemas {
 	TEST_TABLE("TEST_TABLE", "#R", TestTable.class),
-	
 	;
 
 	public static final String ROW_NAME_KEY = "ROW_NAME_KEY";

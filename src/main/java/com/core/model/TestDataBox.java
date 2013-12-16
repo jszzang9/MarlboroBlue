@@ -42,6 +42,7 @@ public class TestDataBox extends DataBox {
 	public void putTestData(TestTable table) throws DcpException {
 		ParamSet paramSet = PersistableFactory.createParamSet(Schemas.TEST_TABLE);
 		paramSet.put(Schemas.ROW_NAME_KEY, DcpGenerator.makeSynthesisKey(table.getId()));
+		paramSet.putAll(table.get());
 		
 		persistPool.getPersistable(Schemas.TEST_TABLE.getPersistType()).put(paramSet);
 	}
