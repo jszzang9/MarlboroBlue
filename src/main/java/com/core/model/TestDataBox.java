@@ -1,6 +1,6 @@
 package com.core.model;
 
-import com.core.model.dto.TestTable;
+import com.core.model.dto.TestData;
 import com.core.model.schema.Schemas;
 import com.core.model.util.DcpGenerator;
 import com.core.persist.PersistableFactory;
@@ -16,7 +16,7 @@ public class TestDataBox extends DataBox {
 		return testDataBox;
 	}
 	
-	public TestDataBox() throws DcpException {
+	private TestDataBox() throws DcpException {
 		super();
 	}
 
@@ -25,7 +25,7 @@ public class TestDataBox extends DataBox {
 			persistPool.getPersistable(Schemas.TEST_TABLE.getPersistType()).create(Schemas.TEST_TABLE.build());
 	}
 	
-	public TestTable getTestData(String id) throws DcpException {
+	public TestData getTestData(String id) throws DcpException {
 		ParamSet paramSet = PersistableFactory.createParamSet(Schemas.TEST_TABLE);
 		paramSet.put(Schemas.ROW_NAME_KEY, DcpGenerator.makeSynthesisKey(id));
 		
@@ -33,13 +33,13 @@ public class TestDataBox extends DataBox {
 		if (resultSet.size() == 0)
 			return null;
 		
-		TestTable table = new TestTable();
+		TestData table = new TestData();
 		table.set(resultSet.get(0));
 		
 		return table;
 	}
 	
-	public void putTestData(TestTable table) throws DcpException {
+	public void putTestData(TestData table) throws DcpException {
 		ParamSet paramSet = PersistableFactory.createParamSet(Schemas.TEST_TABLE);
 		paramSet.put(Schemas.ROW_NAME_KEY, DcpGenerator.makeSynthesisKey(table.getId()));
 		paramSet.putAll(table.get());
@@ -47,7 +47,7 @@ public class TestDataBox extends DataBox {
 		persistPool.getPersistable(Schemas.TEST_TABLE.getPersistType()).put(paramSet);
 	}
 	
-	public void deleteTestData(TestTable table) throws DcpException {
+	public void deleteTestData(TestData table) throws DcpException {
 		ParamSet paramSet = PersistableFactory.createParamSet(Schemas.TEST_TABLE);
 		paramSet.put(Schemas.ROW_NAME_KEY, DcpGenerator.makeSynthesisKey(table.getId()));
 		paramSet.putAll(table.get());

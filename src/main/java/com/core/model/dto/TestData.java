@@ -1,15 +1,15 @@
 package com.core.model.dto;
 
-public class TestTable extends ADto{
+public class TestData extends ADto{
 	
 	private String id;
 	private String pw;
 	private String content;
 	
-	public TestTable() {
+	public TestData() {
 	}
 	
-	public TestTable(String id, String pw, String content) {
+	public TestData(String id, String pw, String content) {
 		this.id = id;
 		this.pw = pw;
 		this.content = content;

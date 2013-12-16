@@ -12,7 +12,7 @@ import com.util.QueuedLogger.QueuedLogger;
 
 
 public class MarlboroBlue {
-	public static final int DEFAULT_PORT = 10301;
+	public static final int DEFAULT_PORT = 3230;
 	
 	public static void main(String...args) throws Exception {
 		boolean showHelp = false;

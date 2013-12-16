@@ -37,7 +37,6 @@ public class WaitingDCP {
 				String line = null;
 		        BufferedReader input = new BufferedReader(new InputStreamReader(p.getInputStream()));
 		        while ((line = input.readLine()) != null) {
-		        	System.out.println("asdasdaasd");
 		        	if (line.length() > 0)
 		        		isExistDcpProcess = true;
 		        }
@@ -56,6 +55,7 @@ public class WaitingDCP {
 		}
 		
 		System.out.print("Waiting.");
+		
 		while(true) {
 			try {
 				Socket socket = new Socket();
@@ -67,6 +67,7 @@ public class WaitingDCP {
 			} 
 			catch (Exception e) {
 				Thread.sleep(1000);
+				e.printStackTrace();
 				System.out.print(".");
 			}
 		}

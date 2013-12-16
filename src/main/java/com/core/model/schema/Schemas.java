@@ -1,7 +1,7 @@
 package com.core.model.schema;
 
 import com.core.model.dto.ADto;
-import com.core.model.dto.TestTable;
+import com.core.model.dto.TestData;
 import com.core.persist.PersistableFactory.PersistType;
 import com.core.persist.base.element.Schema;
 import com.core.persist.mysql.element.MysqlColumnDescriptor;
@@ -12,7 +12,7 @@ import com.MarlboroBlueConfiguration;
 
 
 public enum Schemas {
-	TEST_TABLE("TEST_TABLE", "#R", TestTable.class),
+	TEST_TABLE("TEST_TABLE", "#R", TestData.class),
 	;
 
 	public static final String ROW_NAME_KEY = "ROW_NAME_KEY";

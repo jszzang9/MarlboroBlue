@@ -29,10 +29,6 @@ import com.util.QueuedLogger.QueuedLogger;
 public class MysqlPersist implements Persistable {
 	private BasicDataSource ds = null;
 
-	/**
-	 * {@link MysqlPersist} 생성자.
-	 * @throws DcpException
-	 */
 	public MysqlPersist() throws DcpException {
 		ds = new BasicDataSource();
 		ds.setDriverClassName(MarlboroBlueConfiguration.getProperty("jdbc.driver"));
@@ -44,10 +40,12 @@ public class MysqlPersist implements Persistable {
 		ds.setTimeBetweenEvictionRunsMillis(7200000);
 	}
 	
+	@Override
 	public PersistType getType() throws ServerInternalErrorException {
 		return PersistType.MYSQL;
 	}
-
+	
+	@Override
 	public boolean isExist(String tableName) throws ServerInternalErrorException {
 		boolean isExist = false;
 		
@@ -78,7 +76,8 @@ public class MysqlPersist implements Persistable {
 		
 		return isExist;
 	}
-
+	
+	@Override
 	public void create(Schema schema) throws ServerInternalErrorException {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -110,7 +109,7 @@ public class MysqlPersist implements Persistable {
 			if( conn != null ) try { conn.close(); } catch( Exception ex ) {} finally { conn = null; }
 		}
 	}
-
+	@Override
 	public void drop(Schema schema) throws ServerInternalErrorException {
 		if (isExist(schema.getTableName()) == false)
 			return;
@@ -135,7 +134,8 @@ public class MysqlPersist implements Persistable {
 			if( conn != null ) try { conn.close(); } catch( Exception ex ) {} finally { conn = null; }
 		}
 	}
-
+	
+	@Override
 	public ResultSet get(ParamSet paramSet) throws ServerInternalErrorException {
 		ResultSet resultSet = new MysqlResultSet();
 		
@@ -192,7 +192,8 @@ public class MysqlPersist implements Persistable {
 
 		return resultSet;
 	}
-
+	
+	@Override
 	public ResultSet scan(ParamSet paramSet) throws ServerInternalErrorException {
 		return get(paramSet);
 	}
@@ -243,7 +244,8 @@ public class MysqlPersist implements Persistable {
 		}
 		return updateCnt;
 	}
-
+	
+	@Override
 	public void put(ParamSet paramSet) throws ServerInternalErrorException {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -281,6 +283,7 @@ public class MysqlPersist implements Persistable {
 		}		
 	}
 	
+	@Override
 	public void delete(ParamSet paramSet) throws ServerInternalErrorException {
 		Connection conn = null;
 		PreparedStatement pstmt = null;

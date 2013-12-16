@@ -1,50 +1,266 @@
-[2013-12-16 17:51:56][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 17:51:56][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 17:51:56][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 17:51:56][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 17:51:56][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 17:57:04][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 17:57:04][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 17:57:04][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 17:57:04][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 17:57:04][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:24:20][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:24:20][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:24:20][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:24:20][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:24:20][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:25:55][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:25:55][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:25:55][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:25:55][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:25:55][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:27:21][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:27:21][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:27:21][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:27:21][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:27:21][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:29:37][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:29:37][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:29:37][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:29:37][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:29:37][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:44:30][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:44:30][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:44:30][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:44:30][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:44:30][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:51:51][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:51:51][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:51:51][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:51:51][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:51:51][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:54:15][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:54:15][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:54:15][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:54:15][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:54:15][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
-[2013-12-16 18:59:07][INFO] (QueuedTransactionLog.java:75)  DCP starting...
-[2013-12-16 18:59:07][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
-[2013-12-16 18:59:07][FATAL] (QueuedTransactionLog.java:83)  It's maybe not running dbms.
-[2013-12-16 18:59:07][FATAL] (QueuedTransactionLog.java:83)  DCP-Model failed.
-[2013-12-16 18:59:07][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:03:01][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:03:02][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206181928234000'),`content`=BINARY('1387206181928268000'),`ROW_NAME_KEY`=BINARY('1387206181928234000'),`pw`=BINARY('1387206181928264000')  WHERE `ROW_NAME_KEY`='1387206181928234000'
+[2013-12-17 00:03:02][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206181928234000','1387206181928268000','1387206181928234000','1387206181928264000')
+[2013-12-17 00:03:03][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206181928234000')
+[2013-12-17 00:03:05][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:03:05][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:03:10][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:03:11][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:03:11][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:03:11][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:05:02][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:05:03][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206303271508000'),`content`=BINARY('1387206303271536000'),`ROW_NAME_KEY`=BINARY('1387206303271508000'),`pw`=BINARY('1387206303271532000')  WHERE `ROW_NAME_KEY`='1387206303271508000'
+[2013-12-17 00:05:04][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206303271508000','1387206303271536000','1387206303271508000','1387206303271532000')
+[2013-12-17 00:05:04][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206303271508000')
+[2013-12-17 00:05:06][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:05:06][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:05:12][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:05:12][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:05:12][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:05:12][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:05:36][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:05:36][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206336374270000'),`content`=BINARY('1387206336374298000'),`ROW_NAME_KEY`=BINARY('1387206336374270000'),`pw`=BINARY('1387206336374293000')  WHERE `ROW_NAME_KEY`='1387206336374270000'
+[2013-12-17 00:05:37][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206336374270000','1387206336374298000','1387206336374270000','1387206336374293000')
+[2013-12-17 00:05:37][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206336374270000')
+[2013-12-17 00:05:39][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:05:39][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:05:44][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:05:44][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:05:44][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:05:44][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:06:32][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:06:33][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206393078544000'),`content`=BINARY('1387206393078579000'),`ROW_NAME_KEY`=BINARY('1387206393078544000'),`pw`=BINARY('1387206393078574000')  WHERE `ROW_NAME_KEY`='1387206393078544000'
+[2013-12-17 00:06:33][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206393078544000','1387206393078579000','1387206393078544000','1387206393078574000')
+[2013-12-17 00:06:34][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206393078544000')
+[2013-12-17 00:06:36][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:06:36][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:06:40][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:06:41][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:06:41][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:06:41][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:08:11][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:08:12][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206491992615000'),`content`=BINARY('1387206491992636000'),`ROW_NAME_KEY`=BINARY('1387206491992615000'),`pw`=BINARY('1387206491992633000')  WHERE `ROW_NAME_KEY`='1387206491992615000'
+[2013-12-17 00:08:12][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206491992615000','1387206491992636000','1387206491992615000','1387206491992633000')
+[2013-12-17 00:08:13][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206491992615000')
+[2013-12-17 00:08:15][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:08:15][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:08:22][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:08:22][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:08:22][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:08:23][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:09:44][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:09:45][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206585075398000'),`content`=BINARY('1387206585075435000'),`ROW_NAME_KEY`=BINARY('1387206585075398000'),`pw`=BINARY('1387206585075429000')  WHERE `ROW_NAME_KEY`='1387206585075398000'
+[2013-12-17 00:09:45][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206585075398000','1387206585075435000','1387206585075398000','1387206585075429000')
+[2013-12-17 00:09:46][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206585075398000')
+[2013-12-17 00:09:48][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:09:48][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:09:54][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:09:55][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:09:55][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:09:55][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:12:23][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:12:24][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206743845620000'),`content`=BINARY('1387206743845647000'),`ROW_NAME_KEY`=BINARY('1387206743845620000'),`pw`=BINARY('1387206743845643000')  WHERE `ROW_NAME_KEY`='1387206743845620000'
+[2013-12-17 00:12:24][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206743845620000','1387206743845647000','1387206743845620000','1387206743845643000')
+[2013-12-17 00:12:24][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206743845620000')
+[2013-12-17 00:12:26][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:12:26][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:12:32][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:12:32][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:12:32][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:12:32][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:13:59][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:13:59][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206839485645000'),`content`=BINARY('1387206839485671000'),`ROW_NAME_KEY`=BINARY('1387206839485645000'),`pw`=BINARY('1387206839485666000')  WHERE `ROW_NAME_KEY`='1387206839485645000'
+[2013-12-17 00:14:00][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206839485645000','1387206839485671000','1387206839485645000','1387206839485666000')
+[2013-12-17 00:14:01][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206839485645000')
+[2013-12-17 00:14:02][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:14:02][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:14:10][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:14:10][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:14:10][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:14:10][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:15:37][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:15:37][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387206937374625000'),`content`=BINARY('1387206937374653000'),`ROW_NAME_KEY`=BINARY('1387206937374625000'),`pw`=BINARY('1387206937374649000')  WHERE `ROW_NAME_KEY`='1387206937374625000'
+[2013-12-17 00:15:37][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387206937374625000','1387206937374653000','1387206937374625000','1387206937374649000')
+[2013-12-17 00:15:38][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387206937374625000')
+[2013-12-17 00:15:40][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:15:40][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:15:46][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:15:46][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:15:46][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:15:46][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:16:40][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:16:41][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387207001071496000'),`content`=BINARY('1387207001071523000'),`ROW_NAME_KEY`=BINARY('1387207001071496000'),`pw`=BINARY('1387207001071519000')  WHERE `ROW_NAME_KEY`='1387207001071496000'
+[2013-12-17 00:16:41][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387207001071496000','1387207001071523000','1387207001071496000','1387207001071519000')
+[2013-12-17 00:16:42][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387207001071496000')
+[2013-12-17 00:16:43][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:16:43][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:16:50][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:16:50][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:16:50][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:16:50][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:27:44][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:27:44][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387207664391252000'),`content`=BINARY('1387207664391285000'),`ROW_NAME_KEY`=BINARY('1387207664391252000'),`pw`=BINARY('1387207664391279000')  WHERE `ROW_NAME_KEY`='1387207664391252000'
+[2013-12-17 00:27:44][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387207664391252000','1387207664391285000','1387207664391252000','1387207664391279000')
+[2013-12-17 00:27:45][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387207664391252000')
+[2013-12-17 00:27:47][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:27:47][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:27:51][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:27:51][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:27:51][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:27:51][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 00:27:51][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 00:27:51][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 00:28:32][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:28:33][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387207712953633000'),`content`=BINARY('1387207712953652000'),`ROW_NAME_KEY`=BINARY('1387207712953633000'),`pw`=BINARY('1387207712953649000')  WHERE `ROW_NAME_KEY`='1387207712953633000'
+[2013-12-17 00:28:33][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387207712953633000','1387207712953652000','1387207712953633000','1387207712953649000')
+[2013-12-17 00:28:33][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387207712953633000')
+[2013-12-17 00:28:35][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:28:35][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:28:40][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:28:40][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:28:40][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:28:40][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 00:28:40][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 00:28:40][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 00:28:50][INFO] (QueuedTransactionLog.java:75)  [channel:1457248391] CONNECTED: /0:0:0:0:0:0:0:1:63454
+[2013-12-17 00:29:34][INFO] (QueuedTransactionLog.java:75)  [channel:1457248391] DISCONNECTED: /0:0:0:0:0:0:0:1:63454
+[2013-12-17 00:30:21][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:30:21][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387207821705145000'),`content`=BINARY('1387207821705171000'),`ROW_NAME_KEY`=BINARY('1387207821705145000'),`pw`=BINARY('1387207821705166000')  WHERE `ROW_NAME_KEY`='1387207821705145000'
+[2013-12-17 00:30:22][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387207821705145000','1387207821705171000','1387207821705145000','1387207821705166000')
+[2013-12-17 00:30:22][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387207821705145000')
+[2013-12-17 00:30:24][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:30:24][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:30:24][INFO] (QueuedTransactionLog.java:75)  [channel:210220389] CONNECTED: /192.168.0.51:63463
+[2013-12-17 00:30:24][INFO] (QueuedTransactionLog.java:75)  [channel:210220389] DISCONNECTED: /192.168.0.51:63463
+[2013-12-17 00:30:25][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625] CONNECTED: /192.168.0.51:63464
+[2013-12-17 00:30:25][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625] ================== Incoming Info ================== 
+[2013-12-17 00:30:25][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625]  > Connection : /192.168.0.51:63464 
+[2013-12-17 00:30:25][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625]  > Raw Data : 3DUMMY0001.. 
+[2013-12-17 00:30:25][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625] =================================================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625] ================== Outgoing Info ================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625]  > Connection : /192.168.0.51:63464 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625]  > Telegram Number : DUMMY000 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625] =================================================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1922516625] DISCONNECTED: /192.168.0.51:63464
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800] CONNECTED: /192.168.0.51:63465
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800] ================== Incoming Info ================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800]  > Connection : /192.168.0.51:63465 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800]  > Raw Data : 3USER00001.. 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800] =================================================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800] ================== Outgoing Info ================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800]  > Connection : /192.168.0.51:63465 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800]  > Telegram Number : USER0000 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800] =================================================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:609693800] DISCONNECTED: /192.168.0.51:63465
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130] CONNECTED: /192.168.0.51:63466
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130] ================== Incoming Info ================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130]  > Connection : /192.168.0.51:63466 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130]  > Raw Data : 2USER00001{ 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130] =================================================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130] ================== Outgoing Info ================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130]  > Connection : /192.168.0.51:63466 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130]  > Telegram Number : USER0000 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130] =================================================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:1781019130] DISCONNECTED: /192.168.0.51:63466
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] CONNECTED: /192.168.0.51:63467
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] ================== Incoming Info ================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Connection : /192.168.0.51:63467 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Raw Data : 126USER0001{"content":"ddbcf5431e774c6399b74942fb0e2597","id":"b157802b52ff4cc198acca5549f65e39","pw":"89a0a8d6c3884ac19b28d83441318be1"} 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] =================================================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] ================== Incoming Info ================== 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Connection : /192.168.0.51:63467 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Telegram Number : USER0001 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Description : ???? 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Body Data : {"content":"ddbcf5431e774c6399b74942fb0e2597","id":"b157802b52ff4cc198acca5549f65e39","pw":"89a0a8d6c3884ac19b28d83441318be1"} 
+[2013-12-17 00:30:26][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] =================================================== 
+[2013-12-17 00:30:26][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('b157802b52ff4cc198acca5549f65e39'),`content`=BINARY('ddbcf5431e774c6399b74942fb0e2597'),`ROW_NAME_KEY`=BINARY('b157802b52ff4cc198acca5549f65e39'),`pw`=BINARY('89a0a8d6c3884ac19b28d83441318be1')  WHERE `ROW_NAME_KEY`='b157802b52ff4cc198acca5549f65e39'
+[2013-12-17 00:30:26][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('b157802b52ff4cc198acca5549f65e39','ddbcf5431e774c6399b74942fb0e2597','b157802b52ff4cc198acca5549f65e39','89a0a8d6c3884ac19b28d83441318be1')
+[2013-12-17 00:30:27][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] ================== Outgoing Info ================== 
+[2013-12-17 00:30:27][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Connection : /192.168.0.51:63467 
+[2013-12-17 00:30:27][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Telegram Number : USER0001 
+[2013-12-17 00:30:27][INFO] (QueuedTransactionLog.java:75)  [channel:911627731]  > Body Data : {"resultcode":"0","resultmessage":"success"} 
+[2013-12-17 00:30:27][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] =================================================== 
+[2013-12-17 00:30:27][INFO] (QueuedTransactionLog.java:75)  [channel:911627731] DISCONNECTED: /192.168.0.51:63467
+[2013-12-17 00:30:28][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:30:29][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:30:29][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:30:29][FATAL] (QueuedTransactionLog.java:83)  It's maybe already used port : 3230
+[2013-12-17 00:30:29][FATAL] (QueuedTransactionLog.java:83)  DCP-Server failed.
+[2013-12-17 00:30:29][FATAL] (QueuedTransactionLog.java:83)  DCP failed.
+[2013-12-17 00:30:31][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:30:31][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387207831735438000'),`content`=BINARY('1387207831735458000'),`ROW_NAME_KEY`=BINARY('1387207831735438000'),`pw`=BINARY('1387207831735455000')  WHERE `ROW_NAME_KEY`='1387207831735438000'
+[2013-12-17 00:30:32][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387207831735438000','1387207831735458000','1387207831735438000','1387207831735455000')
+[2013-12-17 00:30:32][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387207831735438000')
+[2013-12-17 00:55:41][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:55:41][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387209341618187000'),`content`=BINARY('1387209341618206000'),`ROW_NAME_KEY`=BINARY('1387209341618187000'),`pw`=BINARY('1387209341618203000')  WHERE `ROW_NAME_KEY`='1387209341618187000'
+[2013-12-17 00:55:41][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387209341618187000','1387209341618206000','1387209341618187000','1387209341618203000')
+[2013-12-17 00:55:42][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387209341618187000')
+[2013-12-17 00:55:43][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 00:55:43][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 00:55:47][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:55:47][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 00:55:47][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 00:55:47][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 00:55:47][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 00:55:47][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 00:55:48][INFO] (QueuedTransactionLog.java:75)  [channel:1759470867] CONNECTED: /192.168.0.51:63525
+[2013-12-17 00:55:48][INFO] (QueuedTransactionLog.java:75)  [channel:1759470867] DISCONNECTED: /192.168.0.51:63525
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] CONNECTED: /192.168.0.51:63526
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] ================== Incoming Info ================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Connection : /192.168.0.51:63526 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Raw Data : 3DUMMY0001.. 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] =================================================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] ================== Outgoing Info ================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Connection : /192.168.0.51:63526 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Telegram Number : DUMMY000 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] =================================================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] DISCONNECTED: /192.168.0.51:63526
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754] CONNECTED: /192.168.0.51:63527
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754] ================== Incoming Info ================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754]  > Connection : /192.168.0.51:63527 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754]  > Raw Data : 3USER00001.. 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754] =================================================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754] ================== Outgoing Info ================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754]  > Connection : /192.168.0.51:63527 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754]  > Telegram Number : USER0000 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754] =================================================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:742413754] DISCONNECTED: /192.168.0.51:63527
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792] CONNECTED: /192.168.0.51:63528
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792] ================== Incoming Info ================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792]  > Connection : /192.168.0.51:63528 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792]  > Raw Data : 2USER00001{ 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792] =================================================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792] ================== Outgoing Info ================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792]  > Connection : /192.168.0.51:63528 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792]  > Telegram Number : USER0000 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792] =================================================== 
+[2013-12-17 00:55:49][INFO] (QueuedTransactionLog.java:75)  [channel:1579211792] DISCONNECTED: /192.168.0.51:63528
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] CONNECTED: /192.168.0.51:63529
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] ================== Incoming Info ================== 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Connection : /192.168.0.51:63529 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Raw Data : 102USER0001{"content":"1eeaf49d7cbf443288ea9b6bbc336a07","id":"jszzang9","pw":"38f7ca40df044d3abdd41ef0b6aed63b"} 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] =================================================== 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] ================== Incoming Info ================== 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Connection : /192.168.0.51:63529 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Telegram Number : USER0001 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Description : ???? 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Body Data : {"content":"1eeaf49d7cbf443288ea9b6bbc336a07","id":"jszzang9","pw":"38f7ca40df044d3abdd41ef0b6aed63b"} 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] =================================================== 
+[2013-12-17 00:55:50][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('jszzang9'),`content`=BINARY('1eeaf49d7cbf443288ea9b6bbc336a07'),`ROW_NAME_KEY`=BINARY('jszzang9'),`pw`=BINARY('38f7ca40df044d3abdd41ef0b6aed63b')  WHERE `ROW_NAME_KEY`='jszzang9'
+[2013-12-17 00:55:50][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('jszzang9','1eeaf49d7cbf443288ea9b6bbc336a07','jszzang9','38f7ca40df044d3abdd41ef0b6aed63b')
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] ================== Outgoing Info ================== 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Connection : /192.168.0.51:63529 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Telegram Number : USER0001 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974]  > Body Data : {"resultcode":"0","resultmessage":"success"} 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] =================================================== 
+[2013-12-17 00:55:50][INFO] (QueuedTransactionLog.java:75)  [channel:109930974] DISCONNECTED: /192.168.0.51:63529
+[2013-12-17 00:55:54][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 00:55:54][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387209354418177000'),`content`=BINARY('1387209354418197000'),`ROW_NAME_KEY`=BINARY('1387209354418177000'),`pw`=BINARY('1387209354418194000')  WHERE `ROW_NAME_KEY`='1387209354418177000'
+[2013-12-17 00:55:54][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387209354418177000','1387209354418197000','1387209354418177000','1387209354418194000')
+[2013-12-17 00:55:55][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387209354418177000')

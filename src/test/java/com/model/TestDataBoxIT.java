@@ -7,7 +7,7 @@ import org.junit.Test;
 import com.MarlboroBlueConfiguration;
 import com.base.DcpUnitTest;
 import com.core.model.TestDataBox;
-import com.core.model.dto.TestTable;
+import com.core.model.dto.TestData;
 
 public class TestDataBoxIT extends DcpUnitTest{
 	
@@ -23,9 +23,8 @@ public class TestDataBoxIT extends DcpUnitTest{
 		String pw = makeRandomString();
 		String content = makeRandomString();
 		
-		TestDataBox.getInstance().putTestData(new TestTable(id, pw, content));
-		TestTable table = TestDataBox.getInstance().getTestData(id);
-		
+		TestDataBox.getInstance().putTestData(new TestData(id, pw, content));
+		TestData table = TestDataBox.getInstance().getTestData(id);
 		Assert.assertNotNull(table);
 		Assert.assertEquals(id, table.getId());
 		Assert.assertEquals(pw, table.getPw());

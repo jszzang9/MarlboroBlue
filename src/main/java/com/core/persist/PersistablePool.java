@@ -11,6 +11,9 @@ public class PersistablePool {
 	private static PersistablePool persistablePool;
 	private Map<PersistType, Persistable> persistableMap = new HashMap<PersistableFactory.PersistType, Persistable>();
 	public static PersistablePool getInstance() throws DcpException {
+		if(persistablePool == null) {
+			persistablePool = new PersistablePool();
+		}
 		return persistablePool;
 	}
 
