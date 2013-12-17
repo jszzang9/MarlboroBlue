@@ -31,7 +31,7 @@ public enum Schemas {
 	 */
 	private Schemas(String tableName, String cfamilyName, Class<? extends ADto> dtoClass) {
 		try {
-			this.persistType = MarlboroBlueConfiguration.getProperty(tableName).equals("MYSQL") ? PersistType.MYSQL: PersistType.HBASE;
+			this.persistType = MarlboroBlueConfiguration.getProperty(tableName).equals("MYSQL") ? PersistType.MYSQL : null;
 			this.tableName = tableName;
 			this.cfamilyName = cfamilyName;
 			this.dtoClass = dtoClass;

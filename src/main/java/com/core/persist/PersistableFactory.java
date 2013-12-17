@@ -11,7 +11,7 @@ import com.core.persist.mysql.element.MysqlParamSet;
 public class PersistableFactory {
 
 	public enum PersistType {
-		MYSQL , HBASE
+		MYSQL
 	}
 
 	public static Persistable create(PersistType persistType) throws DcpException {
