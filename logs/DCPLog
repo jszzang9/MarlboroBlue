@@ -264,3 +264,348 @@
 [2013-12-17 00:55:54][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387209354418177000'),`content`=BINARY('1387209354418197000'),`ROW_NAME_KEY`=BINARY('1387209354418177000'),`pw`=BINARY('1387209354418194000')  WHERE `ROW_NAME_KEY`='1387209354418177000'
 [2013-12-17 00:55:54][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387209354418177000','1387209354418197000','1387209354418177000','1387209354418194000')
 [2013-12-17 00:55:55][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387209354418177000')
+[2013-12-17 15:06:14][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:06:14][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260374419342000'),`content`=BINARY('1387260374419361000'),`ROW_NAME_KEY`=BINARY('1387260374419342000'),`pw`=BINARY('1387260374419357000')  WHERE `ROW_NAME_KEY`='1387260374419342000'
+[2013-12-17 15:06:14][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260374419342000','1387260374419361000','1387260374419342000','1387260374419357000')
+[2013-12-17 15:06:14][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260374419342000')
+[2013-12-17 15:06:16][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 15:06:16][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 15:06:18][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:06:19][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 15:06:19][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 15:06:19][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 15:06:19][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 15:06:19][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 15:06:19][INFO] (QueuedTransactionLog.java:75)  [channel:577042479] CONNECTED: /192.168.0.51:49426
+[2013-12-17 15:06:19][INFO] (QueuedTransactionLog.java:75)  [channel:577042479] DISCONNECTED: /192.168.0.51:49426
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397] CONNECTED: /192.168.0.51:49427
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397] ================== Incoming Info ================== 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397]  > Connection : /192.168.0.51:49427 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397]  > Raw Data : 3DUMMY0001.. 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397] =================================================== 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397] ================== Outgoing Info ================== 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397]  > Connection : /192.168.0.51:49427 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397]  > Telegram Number : DUMMY000 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397] =================================================== 
+[2013-12-17 15:06:20][INFO] (QueuedTransactionLog.java:75)  [channel:1625526397] DISCONNECTED: /192.168.0.51:49427
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021] CONNECTED: /192.168.0.51:49428
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021] ================== Incoming Info ================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021]  > Connection : /192.168.0.51:49428 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021]  > Raw Data : 3USER00001.. 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021] =================================================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021] ================== Outgoing Info ================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021]  > Connection : /192.168.0.51:49428 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021]  > Telegram Number : USER0000 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021] =================================================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1035224021] DISCONNECTED: /192.168.0.51:49428
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172] CONNECTED: /192.168.0.51:49429
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172] ================== Incoming Info ================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172]  > Connection : /192.168.0.51:49429 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172]  > Raw Data : 2USER00001{ 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172] =================================================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172] ================== Outgoing Info ================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172]  > Connection : /192.168.0.51:49429 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172]  > Telegram Number : USER0000 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172] =================================================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1640596172] DISCONNECTED: /192.168.0.51:49429
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] CONNECTED: /192.168.0.51:49430
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] ================== Incoming Info ================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Connection : /192.168.0.51:49430 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Raw Data : 102USER0001{"content":"9798593e2eed4bbd89fcb93b78c80fdd","id":"jszzang9","pw":"ae249adb57de4db6b5dc239323770ce6"} 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] =================================================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] ================== Incoming Info ================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Connection : /192.168.0.51:49430 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Telegram Number : USER0001 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Description : ???? 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Body Data : {"content":"9798593e2eed4bbd89fcb93b78c80fdd","id":"jszzang9","pw":"ae249adb57de4db6b5dc239323770ce6"} 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] =================================================== 
+[2013-12-17 15:06:21][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('jszzang9'),`content`=BINARY('9798593e2eed4bbd89fcb93b78c80fdd'),`ROW_NAME_KEY`=BINARY('jszzang9'),`pw`=BINARY('ae249adb57de4db6b5dc239323770ce6')  WHERE `ROW_NAME_KEY`='jszzang9'
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] ================== Outgoing Info ================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Connection : /192.168.0.51:49430 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Telegram Number : USER0001 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831]  > Body Data : {"resultcode":"0","resultmessage":"success"} 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] =================================================== 
+[2013-12-17 15:06:21][INFO] (QueuedTransactionLog.java:75)  [channel:1718046831] DISCONNECTED: /192.168.0.51:49430
+[2013-12-17 15:06:23][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:06:23][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260383632751000'),`content`=BINARY('1387260383632772000'),`ROW_NAME_KEY`=BINARY('1387260383632751000'),`pw`=BINARY('1387260383632769000')  WHERE `ROW_NAME_KEY`='1387260383632751000'
+[2013-12-17 15:06:23][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260383632751000','1387260383632772000','1387260383632751000','1387260383632769000')
+[2013-12-17 15:06:24][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260383632751000')
+[2013-12-17 15:10:31][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:10:31][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260631236570000'),`content`=BINARY('1387260631236601000'),`ROW_NAME_KEY`=BINARY('1387260631236570000'),`pw`=BINARY('1387260631236596000')  WHERE `ROW_NAME_KEY`='1387260631236570000'
+[2013-12-17 15:10:31][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260631236570000','1387260631236601000','1387260631236570000','1387260631236596000')
+[2013-12-17 15:10:31][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260631236570000')
+[2013-12-17 15:10:33][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 15:10:33][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 15:10:35][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:10:35][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 15:10:35][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 15:10:35][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 15:10:35][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 15:10:35][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 15:10:36][INFO] (QueuedTransactionLog.java:75)  [channel:465199021] CONNECTED: /192.168.0.51:49467
+[2013-12-17 15:10:36][INFO] (QueuedTransactionLog.java:75)  [channel:465199021] DISCONNECTED: /192.168.0.51:49467
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] CONNECTED: /192.168.0.51:49468
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] ================== Incoming Info ================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Connection : /192.168.0.51:49468 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Raw Data : 3DUMMY0001.. 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] =================================================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] ================== Outgoing Info ================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Connection : /192.168.0.51:49468 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Telegram Number : DUMMY000 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] =================================================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:108796506] DISCONNECTED: /192.168.0.51:49468
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953] CONNECTED: /192.168.0.51:49469
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953] ================== Incoming Info ================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953]  > Connection : /192.168.0.51:49469 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953]  > Raw Data : 3USER00001.. 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953] =================================================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953] ================== Outgoing Info ================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953]  > Connection : /192.168.0.51:49469 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953]  > Telegram Number : USER0000 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953] =================================================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:97612953] DISCONNECTED: /192.168.0.51:49469
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971] CONNECTED: /192.168.0.51:49470
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971] ================== Incoming Info ================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971]  > Connection : /192.168.0.51:49470 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971]  > Raw Data : 2USER00001{ 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971] =================================================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971] ================== Outgoing Info ================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971]  > Connection : /192.168.0.51:49470 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971]  > Telegram Number : USER0000 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971] =================================================== 
+[2013-12-17 15:10:37][INFO] (QueuedTransactionLog.java:75)  [channel:1957318971] DISCONNECTED: /192.168.0.51:49470
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] CONNECTED: /192.168.0.51:49471
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] ================== Incoming Info ================== 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Connection : /192.168.0.51:49471 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Raw Data : 102USER0001{"content":"6e7722d08e294aefb9a3c184e9d709bc","id":"jszzang9","pw":"e4a8286157a54f78a6ebaedfecf9be9a"} 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] =================================================== 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] ================== Incoming Info ================== 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Connection : /192.168.0.51:49471 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Telegram Number : USER0001 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Description : ???? 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Body Data : {"content":"6e7722d08e294aefb9a3c184e9d709bc","id":"jszzang9","pw":"e4a8286157a54f78a6ebaedfecf9be9a"} 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] =================================================== 
+[2013-12-17 15:10:38][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('jszzang9'),`content`=BINARY('6e7722d08e294aefb9a3c184e9d709bc'),`ROW_NAME_KEY`=BINARY('jszzang9'),`pw`=BINARY('e4a8286157a54f78a6ebaedfecf9be9a')  WHERE `ROW_NAME_KEY`='jszzang9'
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] ================== Outgoing Info ================== 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Connection : /192.168.0.51:49471 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Telegram Number : USER0001 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055]  > Body Data : {"resultcode":"0","resultmessage":"success"} 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] =================================================== 
+[2013-12-17 15:10:38][INFO] (QueuedTransactionLog.java:75)  [channel:147971055] DISCONNECTED: /192.168.0.51:49471
+[2013-12-17 15:10:39][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:10:40][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260640036715000'),`content`=BINARY('1387260640036760000'),`ROW_NAME_KEY`=BINARY('1387260640036715000'),`pw`=BINARY('1387260640036753000')  WHERE `ROW_NAME_KEY`='1387260640036715000'
+[2013-12-17 15:10:40][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260640036715000','1387260640036760000','1387260640036715000','1387260640036753000')
+[2013-12-17 15:10:40][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260640036715000')
+[2013-12-17 15:12:50][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:12:50][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260770825106000'),`content`=BINARY('1387260770825137000'),`ROW_NAME_KEY`=BINARY('1387260770825106000'),`pw`=BINARY('1387260770825131000')  WHERE `ROW_NAME_KEY`='1387260770825106000'
+[2013-12-17 15:12:50][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260770825106000','1387260770825137000','1387260770825106000','1387260770825131000')
+[2013-12-17 15:12:51][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260770825106000')
+[2013-12-17 15:12:52][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 15:12:52][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 15:12:53][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:12:53][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 15:12:53][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 15:12:53][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 15:12:53][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 15:12:53][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 15:12:54][INFO] (QueuedTransactionLog.java:75)  [channel:465199021] CONNECTED: /192.168.0.51:49487
+[2013-12-17 15:12:54][INFO] (QueuedTransactionLog.java:75)  [channel:465199021] DISCONNECTED: /192.168.0.51:49487
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] CONNECTED: /192.168.0.51:49488
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] ================== Incoming Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Connection : /192.168.0.51:49488 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Raw Data : 3DUMMY0001.. 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] ================== Outgoing Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Connection : /192.168.0.51:49488 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Telegram Number : DUMMY000 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] DISCONNECTED: /192.168.0.51:49488
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178] CONNECTED: /192.168.0.51:49489
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178] ================== Incoming Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178]  > Connection : /192.168.0.51:49489 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178]  > Raw Data : 3USER00001.. 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178] ================== Outgoing Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178]  > Connection : /192.168.0.51:49489 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178]  > Telegram Number : USER0000 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:546092178] DISCONNECTED: /192.168.0.51:49489
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062] CONNECTED: /192.168.0.51:49490
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062] ================== Incoming Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062]  > Connection : /192.168.0.51:49490 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062]  > Raw Data : 2USER00001{ 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062] ================== Outgoing Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062]  > Connection : /192.168.0.51:49490 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062]  > Telegram Number : USER0000 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062]  > Body Data : {"resultcode":"3","resultmessage":"unsupported telegram number"} 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:227370062] DISCONNECTED: /192.168.0.51:49490
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] CONNECTED: /192.168.0.51:49491
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] ================== Incoming Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Connection : /192.168.0.51:49491 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Raw Data : 102USER0001{"content":"cf29efa7d4c94aa4beb7adb8cb5a45c9","id":"jszzang9","pw":"45c6be59e3af4712b24a3a682738d00d"} 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] ================== Incoming Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Connection : /192.168.0.51:49491 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Telegram Number : USER0001 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Description : ???? 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Body Data : {"content":"cf29efa7d4c94aa4beb7adb8cb5a45c9","id":"jszzang9","pw":"45c6be59e3af4712b24a3a682738d00d"} 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] =================================================== 
+[2013-12-17 15:12:55][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('jszzang9'),`content`=BINARY('cf29efa7d4c94aa4beb7adb8cb5a45c9'),`ROW_NAME_KEY`=BINARY('jszzang9'),`pw`=BINARY('45c6be59e3af4712b24a3a682738d00d')  WHERE `ROW_NAME_KEY`='jszzang9'
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] ================== Outgoing Info ================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Connection : /192.168.0.51:49491 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Telegram Number : USER0001 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520]  > Body Data : {"resultcode":"0","resultmessage":"success"} 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] =================================================== 
+[2013-12-17 15:12:55][INFO] (QueuedTransactionLog.java:75)  [channel:2000902520] DISCONNECTED: /192.168.0.51:49491
+[2013-12-17 15:12:57][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:12:57][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260777159233000'),`content`=BINARY('1387260777159286000'),`ROW_NAME_KEY`=BINARY('1387260777159233000'),`pw`=BINARY('1387260777159279000')  WHERE `ROW_NAME_KEY`='1387260777159233000'
+[2013-12-17 15:12:57][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260777159233000','1387260777159286000','1387260777159233000','1387260777159279000')
+[2013-12-17 15:12:57][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260777159233000')
+[2013-12-17 15:14:37][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:14:37][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260877602259000'),`content`=BINARY('1387260877602288000'),`ROW_NAME_KEY`=BINARY('1387260877602259000'),`pw`=BINARY('1387260877602283000')  WHERE `ROW_NAME_KEY`='1387260877602259000'
+[2013-12-17 15:14:37][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260877602259000','1387260877602288000','1387260877602259000','1387260877602283000')
+[2013-12-17 15:14:37][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260877602259000')
+[2013-12-17 15:14:39][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 15:14:39][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 15:14:40][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:14:40][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 15:14:40][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 15:14:40][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 15:14:40][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 15:14:40][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 15:14:41][INFO] (QueuedTransactionLog.java:75)  [channel:465199021] CONNECTED: /192.168.0.51:49507
+[2013-12-17 15:14:41][INFO] (QueuedTransactionLog.java:75)  [channel:465199021] DISCONNECTED: /192.168.0.51:49507
+[2013-12-17 15:14:41][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] CONNECTED: /192.168.0.51:49508
+[2013-12-17 15:14:41][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] ================== Incoming Info ================== 
+[2013-12-17 15:14:41][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Connection : /192.168.0.51:49508 
+[2013-12-17 15:14:41][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Raw Data : 3DUMMY000... 
+[2013-12-17 15:14:41][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] ================== Outgoing Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Connection : /192.168.0.51:49508 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Telegram Number : DUMMY000 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1850810421] DISCONNECTED: /192.168.0.51:49508
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122] CONNECTED: /192.168.0.51:49509
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122] ================== Incoming Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122]  > Connection : /192.168.0.51:49509 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122]  > Raw Data : 3USER0001... 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122] ================== Outgoing Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122]  > Connection : /192.168.0.51:49509 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122]  > Telegram Number : USER0001 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1073721122] DISCONNECTED: /192.168.0.51:49509
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203] CONNECTED: /192.168.0.51:49510
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203] ================== Incoming Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203]  > Connection : /192.168.0.51:49510 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203]  > Raw Data : 2USER0001{} 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203] ================== Outgoing Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203]  > Connection : /192.168.0.51:49510 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203]  > Telegram Number : USER0001 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203]  > Body Data : {"resultcode":"1","resultmessage":"missing parameter, id"} 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1655468203] DISCONNECTED: /192.168.0.51:49510
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] CONNECTED: /192.168.0.51:49511
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] ================== Incoming Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Connection : /192.168.0.51:49511 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Raw Data : 102USER0001{"content":"db1f734381284d62b74866d03d114fa2","id":"jszzang9","pw":"da2e8666118a4e0da1d256f06a206868"} 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] ================== Incoming Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Connection : /192.168.0.51:49511 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Telegram Number : USER0001 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Description : ???? 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Body Data : {"content":"db1f734381284d62b74866d03d114fa2","id":"jszzang9","pw":"da2e8666118a4e0da1d256f06a206868"} 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] =================================================== 
+[2013-12-17 15:14:42][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('jszzang9'),`content`=BINARY('db1f734381284d62b74866d03d114fa2'),`ROW_NAME_KEY`=BINARY('jszzang9'),`pw`=BINARY('da2e8666118a4e0da1d256f06a206868')  WHERE `ROW_NAME_KEY`='jszzang9'
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] ================== Outgoing Info ================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Connection : /192.168.0.51:49511 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Telegram Number : USER0001 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271]  > Body Data : {"resultcode":"0","resultmessage":"success"} 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] =================================================== 
+[2013-12-17 15:14:42][INFO] (QueuedTransactionLog.java:75)  [channel:1860271] DISCONNECTED: /192.168.0.51:49511
+[2013-12-17 15:14:44][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:14:44][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260884218610000'),`content`=BINARY('1387260884218673000'),`ROW_NAME_KEY`=BINARY('1387260884218610000'),`pw`=BINARY('1387260884218663000')  WHERE `ROW_NAME_KEY`='1387260884218610000'
+[2013-12-17 15:14:44][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260884218610000','1387260884218673000','1387260884218610000','1387260884218663000')
+[2013-12-17 15:14:44][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260884218610000')
+[2013-12-17 15:15:15][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:15:16][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260915957535000'),`content`=BINARY('1387260915957567000'),`ROW_NAME_KEY`=BINARY('1387260915957535000'),`pw`=BINARY('1387260915957561000')  WHERE `ROW_NAME_KEY`='1387260915957535000'
+[2013-12-17 15:15:16][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260915957535000','1387260915957567000','1387260915957535000','1387260915957561000')
+[2013-12-17 15:15:16][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260915957535000')
+[2013-12-17 15:15:17][INFO] (QueuedTransactionLog.java:75)  DCP starting...
+[2013-12-17 15:15:17][INFO] (QueuedTransactionLog.java:75)  DCP-Model is perparing...
+[2013-12-17 15:15:19][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:15:19][INFO] (QueuedTransactionLog.java:75)  DCP-Model is ready.
+[2013-12-17 15:15:19][INFO] (QueuedTransactionLog.java:75)  DCP-Server is preparing...
+[2013-12-17 15:15:19][INFO] (QueuedTransactionLog.java:75)  DCP-Server Port : 3230
+[2013-12-17 15:15:19][INFO] (QueuedTransactionLog.java:75)  DCP-Server is ready.
+[2013-12-17 15:15:19][INFO] (QueuedTransactionLog.java:75)  DCP is ready.
+[2013-12-17 15:15:20][INFO] (QueuedTransactionLog.java:75)  [channel:1759470867] CONNECTED: /192.168.0.51:49526
+[2013-12-17 15:15:20][INFO] (QueuedTransactionLog.java:75)  [channel:1759470867] DISCONNECTED: /192.168.0.51:49526
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952] CONNECTED: /192.168.0.51:49527
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952] ================== Incoming Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952]  > Connection : /192.168.0.51:49527 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952]  > Raw Data : 3DUMMY000... 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952] ================== Outgoing Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952]  > Connection : /192.168.0.51:49527 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952]  > Telegram Number : DUMMY000 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:270118952] DISCONNECTED: /192.168.0.51:49527
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805] CONNECTED: /192.168.0.51:49528
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805] ================== Incoming Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805]  > Connection : /192.168.0.51:49528 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805]  > Raw Data : 3USER0001... 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805] ================== Outgoing Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805]  > Connection : /192.168.0.51:49528 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805]  > Telegram Number : USER0001 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805]  > Body Data : {"resultcode":"2","resultmessage":"invalid json format"} 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:1845727805] DISCONNECTED: /192.168.0.51:49528
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513] CONNECTED: /192.168.0.51:49529
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513] ================== Incoming Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513]  > Connection : /192.168.0.51:49529 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513]  > Raw Data : 2USER0001{} 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513] ================== Outgoing Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513]  > Connection : /192.168.0.51:49529 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513]  > Telegram Number : USER0001 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513]  > Body Data : {"resultcode":"1","resultmessage":"missing parameter, id"} 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:649490513] DISCONNECTED: /192.168.0.51:49529
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] CONNECTED: /192.168.0.51:49530
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] ================== Incoming Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Connection : /192.168.0.51:49530 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Raw Data : 102USER0001{"content":"ceb5ba3100c145a6b8d745e9e27a83a6","id":"jszzang9","pw":"affa6cc912af4a20b28a5a6bd708b729"} 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] ================== Incoming Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Connection : /192.168.0.51:49530 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Telegram Number : USER0001 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Description : ???? 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Body Data : {"content":"ceb5ba3100c145a6b8d745e9e27a83a6","id":"jszzang9","pw":"affa6cc912af4a20b28a5a6bd708b729"} 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] =================================================== 
+[2013-12-17 15:15:21][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('jszzang9'),`content`=BINARY('ceb5ba3100c145a6b8d745e9e27a83a6'),`ROW_NAME_KEY`=BINARY('jszzang9'),`pw`=BINARY('affa6cc912af4a20b28a5a6bd708b729')  WHERE `ROW_NAME_KEY`='jszzang9'
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] ================== Outgoing Info ================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Connection : /192.168.0.51:49530 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Telegram Number : USER0001 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169]  > Body Data : {"resultcode":"0","resultmessage":"success"} 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] =================================================== 
+[2013-12-17 15:15:21][INFO] (QueuedTransactionLog.java:75)  [channel:589903169] DISCONNECTED: /192.168.0.51:49530
+[2013-12-17 15:15:23][DEBUG] (QueuedTransactionLog.java:77)  SHOW TABLES LIKE 'TEST_TABLE'
+[2013-12-17 15:15:24][DEBUG] (QueuedTransactionLog.java:77)  UPDATE  TEST_TABLE SET `id`=BINARY('1387260924037592000'),`content`=BINARY('1387260924037637000'),`ROW_NAME_KEY`=BINARY('1387260924037592000'),`pw`=BINARY('1387260924037631000')  WHERE `ROW_NAME_KEY`='1387260924037592000'
+[2013-12-17 15:15:24][DEBUG] (QueuedTransactionLog.java:77)  INSERT INTO TEST_TABLE( `id`,`content`,`ROW_NAME_KEY`,`pw`) VALUES('1387260924037592000','1387260924037637000','1387260924037592000','1387260924037631000')
+[2013-12-17 15:15:24][DEBUG] (QueuedTransactionLog.java:77)  SELECT * FROM TEST_TABLE WHERE `ROW_NAME_KEY`=BINARY('1387260924037592000')

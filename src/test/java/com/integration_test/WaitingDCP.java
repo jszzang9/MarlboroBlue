@@ -67,7 +67,6 @@ public class WaitingDCP {
 			} 
 			catch (Exception e) {
 				Thread.sleep(1000);
-				e.printStackTrace();
 				System.out.print(".");
 			}
 		}
